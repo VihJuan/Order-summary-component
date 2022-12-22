@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap');
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+ body{
+    background: hsl(225, 100%, 94%);
+    font-family: 'Red Hat Display', sans-serif;
+ }
+
+.container{
+    height: 600px;
+    width: 400px;
+    background: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 20px;
+}
+
+.container img{
+    width: 400px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+
+.text{
+    position: relative;
+    top: 25px;
+    display:inline-block;
+    align-items: center;
+    text-align: center;
+left: 50px;
+color: hsl(223, 47%, 23%);
+font-weight: 900;
+}
+
+
+.text p{
+    position: relative;
+    top: 25px;
+    width: 300px;
+    color: hsl(224, 23%, 55%);
+    font-weight: 500;
+    
+}
+
+.plan{
+    
+    left: 0px;
+    width: 310px;
+    height: 60px;
+    position: relative;
+    /* border: 1px solid red; */
+    top: 45px;
+    font-size: 13px;
+    right: 0px;
+    background: hsl(225, 100%, 98%);
+    border-radius: 10px;
+}
+.plan h2{
+position: relative;
+bottom: 35px;
+right: 40px;
+font-weight: 700;
+font-size: 18px;
+}
+.plan p{
+    position: absolute;
+    top: 30px;
+    right: 50px;
+    font-size: 16px;
+}
+.plan img{
+    position: relative;
+    height: 40px;
+    width: 40px;
+    right: 120px;
+    top: 10px;
+
+}
+
+.plan a{
+    position: absolute;
+    right:20px;
+    top: 22px;
+    color:hsl(245, 75%, 52%);
+}
+
+.butom {
+    position: relative;
+top: 20px;
+    border-radius: 10px;
+    height: 40px;
+    background: hsl(245, 75%, 52%);
+    
+}
+
+.butom a{
+    position: relative;
+    color:white;
+    top: 12px;
+    right: 0px;
+    text-decoration: none;
+}
+
+
+.end a{
+    position: relative;
+    color: hsl(224, 23%, 55%);;
+    top: 50px;
+    font-size: 14px;
+}
+
+.attribution{
+    position: relative;
+    top: 670px;
+}
